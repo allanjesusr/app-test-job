@@ -1,0 +1,67 @@
+
+
+.screen-mult { 
+    margin: 0;
+    color: #fff;
+    background-color: #3a168dc5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-mult {
+    align-items: center;
+    background-color: #271261;
+    border-radius: 15px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 500px;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+.btn-mult {
+    background-color: #804daf;
+    border-radius: 15px;
+    border: 5px solid #b9d3ec;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px;
+    width: 100%;
+}
+
+.mult-h1 { 
+    font-size: 30px; 
+    letter-spacing: -1px; 
+    color: #DFBF84; 
+    text-transform: uppercase; 
+    text-shadow: 1px 1px 0 #000; 
+    margin: 10px 0 24px; 
+    text-align: center; 
+    line-height: 50px; 
+}
+
+.mult-p { 
+    color: #f6f6f6; 
+    padding: 10px;
+    font-family: 'Orienta', sans-serif; 
+    font-size: 25px; 
+    line-height: 24px;
+    margin: 0 0 24px; 
+    text-align: center; 
+}
+
+.result-form-mult {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    list-style:none;
+    font-size: 40px;
+    margin-right: 10px;
+}

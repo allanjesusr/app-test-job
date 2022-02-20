@@ -1,0 +1,87 @@
+* {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.screen-fibo { 
+    margin: 0;
+    color: #fff;
+    background-color: #16aa96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    align-items: center;
+    background-color: #077446;
+    border-radius: 15px;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 500px;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+.fibo-h1 {
+    font-size: 30px; 
+    letter-spacing: -1px; 
+    color: #DFBF84; 
+    text-transform: uppercase; 
+    text-shadow: 1px 1px 0 #000; 
+    margin: 10px 0 24px; 
+    text-align: center; 
+    line-height: 50px;
+}
+
+.fibo-p { 
+    color: #f6f6f6; 
+    padding: 10px;
+    font-family: 'Orienta', sans-serif; 
+    font-size: 25px; 
+    line-height: 24px;
+    margin: 0 0 24px; 
+    text-align: center; 
+}
+
+
+.btn-fibo {
+    background-color: #10d641;
+    border-radius: 15px;
+    border: 5px solid #234668;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px;
+    width: 100%;
+}
+
+.form__input {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(212, 212, 212);
+    border: none;
+    width: 98%;
+    display: block;
+    transition: all 0.3s;
+    padding: 1rem;
+}
+
+.result-form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    list-style:none;
+    font-size: 40px;
+}
+
+.fibo-li { 
+    margin-right: 10px;
+}
